@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap'); /*importando as fontes do título e do texto*/
+
 /*seleciona todos os elementos da pagina*/
 /*isso limpa todos os padrões dos navegadores*/
 * { 
@@ -21,6 +23,23 @@ body {
 }
 
 .apresentacao {
+    margin: 15%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao-conteudo {
+    width: 1000px;
+    height: 700px;
+}
+
+.apresentacao-conteudo-titulo {
+    font-size: 40px;
+    font-family: "Sansita", sans-serif;
+}
+
+.apresentacao-conteudo-texto {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;;
 }
