@@ -1,8 +1,26 @@
+/*seleciona todos os elementos da pagina*/
+/*isso limpa todos os padrões dos navegadores*/
+* { 
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #1c1c1c;
     color: white;
 }
 
-strong {
-    color: hotpink;
+.destaque-nome {
+    color: rgb(255, 65, 160);
+}
+
+.destaque-port {
+    color: rgb(255, 65, 160);
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
 }
