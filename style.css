@@ -30,8 +30,8 @@ body {
 }
 
 .apresentacao-conteudo {
-    width: 1000px;
-    height: 700px;
+    width: 900px;
+    height: 400px;
 }
 
 .apresentacao-conteudo-titulo {
@@ -41,5 +41,42 @@ body {
 
 .apresentacao-conteudo-texto {
     font-size: 20px;
-    font-family: "Montserrat", sans-serif;;
+    font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao-botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao-botoes-instagram {
+    background-color: rgb(255, 65, 160);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    width: 280px;
+    height: 50px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 25px;
+    padding: 21.5px, 0;
+    text-decoration: none;
+}
+
+.apresentacao-botoes-github {
+    background-color: rgb(255, 65, 160);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    width: 280px;
+    height: 50px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 25px;
+    padding: 21.5px, 0;
+    text-decoration: none;
+}
+
+img {
+
 }
