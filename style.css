@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap'); /*importando as fontes do título e do texto*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap'); /*importando as fontes do título e do texto (Sansita e Montserrat)*/
 
 /*seleciona todos os elementos da pagina*/
 /*isso limpa todos os padrões dos navegadores*/
@@ -22,6 +22,10 @@ body {
     color: rgb(255, 65, 160);
 }
 
+span {
+    color: rgb(255, 65, 160);
+}
+
 .apresentacao {
     margin: 15%;
     display: flex;
@@ -30,8 +34,8 @@ body {
 }
 
 .apresentacao-conteudo {
-    width: 900px;
-    height: 750px;
+    width: 850px;
+    height: 700px;
 }
 
 .apresentacao-conteudo-titulo {
@@ -41,42 +45,47 @@ body {
 }
 
 .apresentacao-conteudo-texto {
-    font-size: 30px;
+    font-size: 36px;
     font-family: "Montserrat", sans-serif;
-    padding: 20px 0px;
+    font-weight: 600;
+    padding: 50px 0px;
 }
 
 .apresentacao-botoes {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     text-align: center;
-    padding: 30px 0px;
+
 }
 
-.apresentacao-botoes-instagram {
+.apresentacao-botoes-instagram{
     background-color: rgb(255, 65, 160);
     color: white;
     font-size: 30px;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    width: 280px;
+    width: 300px;
     height: 65px;
-    border-radius: 16px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .apresentacao-botoes-github {
     background-color: rgb(255, 65, 160);
     color: white;
-    font-family: "Montserrat", sans-serif;
-    border-radius: 16px;
-    font-size: 25px;
+    font-size: 30px;
     text-decoration: none;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    width: 280px;
-    height: 50px;
-    text-align: center;
+    width: 300px;
+    height: 65px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 img {
