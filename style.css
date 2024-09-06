@@ -1,87 +1,94 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap'); /*importando as fontes do título e do texto (Sansita e Montserrat)*/
+
+/*seleciona todos os elementos da pagina*/
+/*isso limpa todos os padrões dos navegadores*/
+* { 
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #1c1c1c;
     color: white;
-    display: flex;
-    justify-content: center; /*centraliza o corpo horizontalmente*/
-    align-items: center; /*centraliza o corpo verticalmente*/
-    height: 100vh; /*define a altura do corpo*/
 }
 
-.conteiner {
+.destaque-nome {
+    color: rgb(255, 65, 160);
+}
+
+.destaque-port {
+    color: rgb(255, 65, 160);
+}
+
+span {
+    color: rgb(255, 65, 160);
+}
+
+.apresentacao {
+    margin: 15%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: row; /*organiza os itens em uma linha*/
-    padding: 20px; /*adiicona um preenchimento de 20px ao redor do conteiner*/
-    gap: 30px;
+    justify-content: space-between;
 }
 
-.content {
-    max-width: 600px; /*define a largura máxima do conteúdo como 600px*/
-    margin-right: 40px; /*adiciona uma margem direita de 40px*/
+.apresentacao-conteudo {
+    width: 850px;
+    height: 700px;
 }
 
-.h1 {
-    font-size: 2.5em; /*define o tamanho da fonte como 2 vezes o tamanho padrão*/
-    margin-bottom: 20px; /*adiciona uma margem inferior de 20xp*/
-}
-
-h1 strong{
-    color: #ff1493
-}
-
-h1 span {
-    color: #ff1493;
-}
-
-p {
-    font-size: 1.2em; 
-    line-height: 1.5; /*define o espaçamento entre as linhas*/
-    margin-bottom: 20px;
-}
-
-p span {
-    color: #ff1493;
-}
-
-.buttons {
-    display: flex;
-    gap: 40px; /*define um espaço de 20px entre os botões*/
+.apresentacao-conteudo-titulo {
+    font-size: 55px;
     align-items: flex-start;
+    font-family: "Sansita", sans-serif;
 }
 
-.button {
-    text-decoration: none; /*remove a decoração de texto (sublinhado) dos links*/
-    padding: 10px 20px; /*adiciona um preenchimente de 10px vertical e 20px horizontal*/
-    border-radius: 25px; /*define pordas arredondadas*/
-    color: white;
-    font-weight: bold; /*define a fonte dos botões como negrito*/
-    display: flex; /*configura o layout dos botões para um flex conteiner*/
-    align-items: center;
-    justify-content: center;
+.apresentacao-conteudo-texto {
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    padding: 50px 0px;
 }
 
-.instagram {
-    background-color: #ff1493;
-}
-
-.github {
-    background-color: #6e5494;
-}
-
-.image-conteiner {
+.apresentacao-botoes {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.apresentacao-botoes-instagram{
+    background-color: rgb(255, 65, 160);
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    width: 300px;
+    height: 65px;
+    border-radius: 30px;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.image-conteiner img {
-    width: 300px; /*define a largura da imagem como 300px*/
-    height: auto; /*altura automatica para manter a proporção*/
-    border-radius: 20px; /*define bordas arredondadas com um raio de 20px*/
-    box-shadow: 30px 30px 0 5px #ff1493; /* desloca a sombra da borda */
+.apresentacao-botoes-github {
+    background-color: rgb(255, 65, 160);
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    width: 300px;
+    height: 65px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+img {
+    width: 600px;
+    height: auto;
+}
